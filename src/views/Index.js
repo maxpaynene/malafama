@@ -20,9 +20,10 @@ import React from "react";
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import PageHeader from "components/PageHeader/PageHeader.js";
-import Footer from "components/Footer/Footer.js";
+//import Footer from "components/Footer/Footer.js";
 
 // sections for this page/view
+/*
 import Basics from "views/IndexSections/Basics.js";
 import Navbars from "views/IndexSections/Navbars.js";
 import Tabs from "views/IndexSections/Tabs.js";
@@ -34,6 +35,7 @@ import NucleoIcons from "views/IndexSections/NucleoIcons.js";
 import Signup from "views/IndexSections/Signup.js";
 import Examples from "views/IndexSections/Examples.js";
 import Download from "views/IndexSections/Download.js";
+*/
 
 export default function Index() {
   React.useEffect(() => {
