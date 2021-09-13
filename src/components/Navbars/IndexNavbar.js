@@ -150,7 +150,7 @@ export default function IndexNavbar() {
             <NavItem className="p-0">
               <NavLink
                 data-placement="bottom"
-                href="https://www.instagram.com/MLF"
+                href="https://www.instagram.com/malafamarecordsofficial"
                 rel="noopener noreferrer"
                 target="_blank"
                 title="Follow us on Instagram"
