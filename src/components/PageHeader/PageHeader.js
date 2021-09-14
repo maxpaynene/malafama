@@ -23,10 +23,7 @@ export default function PageHeader() {
       <div className="page-header-image" data-parallax="true"></div>
       <Container>
         <div className="content-center brand">
-          <img src={logo} width="400px" height="280px" alt="img"/>
-          {/*
-            <h1 className="h1-seo">Malafama</h1>
-          */}
+          <img src={logo} nimWidth="400px" minHeight="280px" alt="img"/>
         </div>
       </Container>
     </div>

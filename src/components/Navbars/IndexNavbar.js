@@ -17,15 +17,7 @@
 */
 import React from "react";
 import { Link } from "react-router-dom";
-// reactstrap components
 import {
-  /*
-  Button,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  UncontrolledDropdown,
-  */
   Collapse,
   NavbarBrand,
   Navbar,
@@ -70,13 +62,7 @@ export default function IndexNavbar() {
   const onCollapseExited = () => {
     setCollapseOut("");
   };
-  /*
-  const scrollToDownload = () => {
-    document
-      .getElementById("download-section")
-      .scrollIntoView({ behavior: "smooth" });
-  };
-  */
+  
   return (
     <Navbar className={"fixed-top " + color} color-on-scroll="100" expand="lg">
       <Container>
@@ -105,8 +91,8 @@ export default function IndexNavbar() {
           <div className="navbar-collapse-header">
             <Row>
               <Col className="collapse-brand" xs="6">
-                <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                  BLK•React
+                <a href="#Menu" onClick={(e) => e.preventDefault()}>
+                  Menu
                 </a>
               </Col>
               <Col className="collapse-close text-right" xs="6">
@@ -121,39 +107,13 @@ export default function IndexNavbar() {
             </Row>
           </div>
           <Nav navbar>
-            {/*
-            <NavItem className="p-0">
-              <NavLink
-                data-placement="bottom"
-                href="https://twitter.com/MLF"
-                rel="noopener noreferrer"
-                target="_blank"
-                title="Follow us on Twitter"
-              >
-                <i className="fab fa-twitter" />
-                <p className="d-lg-none d-xl-none">Twitter</p>
-              </NavLink>
-            </NavItem>
-            <NavItem className="p-0">
-              <NavLink
-                data-placement="bottom"
-                href="https://www.facebook.com/MLF"
-                rel="noopener noreferrer"
-                target="_blank"
-                title="Like us on Facebook"
-              >
-                <i className="fab fa-facebook-square" />
-                <p className="d-lg-none d-xl-none">Facebook</p>
-              </NavLink>
-            </NavItem>
-            */}
             <NavItem className="p-0">
               <NavLink
                 data-placement="bottom"
                 href="https://www.instagram.com/malafamarecordsofficial"
                 rel="noopener noreferrer"
                 target="_blank"
-                title="Follow us on Instagram"
+                title="Siguenos en nuestro Instagram"
               >
                 <i className="fab fa-instagram" />
                 <p className="d-lg-none d-xl-none">Instagram</p>

@@ -96,8 +96,8 @@ export default function ExamplesNavbar() {
           <div className="navbar-collapse-header">
             <Row>
               <Col className="collapse-brand" xs="6">
-                <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                  BLK•React
+                <a href="#menu" onClick={(e) => e.preventDefault()}>
+                  Menu
                 </a>
               </Col>
               <Col className="collapse-close text-right" xs="6">
