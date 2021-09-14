@@ -6,6 +6,7 @@
 
 import React from "react";
 import { Container } from "reactstrap";
+import logo from "../../assets/img/mlf_records.png"
 
 export default function PageHeader() {
   return (
@@ -19,11 +20,13 @@ export default function PageHeader() {
       <div className="squares square6" />
       <div className="squares square7" />
       */}
-      {/** bg-header.jpg */}
       <div className="page-header-image" data-parallax="true"></div>
       <Container>
         <div className="content-center brand">
-          <h1 className="h1-seo">Malafama</h1>
+          <img src={logo} width="400px" height="280px" alt="img"/>
+          {/*
+            <h1 className="h1-seo">Malafama</h1>
+          */}
         </div>
       </Container>
     </div>
