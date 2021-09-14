@@ -20,7 +20,7 @@ import ProfilePage from "views/examples/ProfilePage.js";
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/components" render={(props) => <Index {...props} />} />
+      <Route path="/index" render={(props) => <Index {...props} />} />
       <Route
         path="/landing-page"
         render={(props) => <LandingPage {...props} />}
@@ -33,7 +33,7 @@ ReactDOM.render(
         path="/profile-page"
         render={(props) => <ProfilePage {...props} />}
       />
-      <Redirect from="/" to="/components" />
+      <Redirect from="/" to="/index" />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
