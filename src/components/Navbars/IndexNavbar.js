@@ -69,7 +69,7 @@ export default function IndexNavbar() {
         <div className="navbar-translate">
           <NavbarBrand to="/" tag={Link} id="navbar-brand">
             <span>MLF• </span>
-            Malafama Records Inc
+            Malafama Records
           </NavbarBrand>
           <button
             aria-expanded={collapseOpen}
